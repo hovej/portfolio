@@ -1,0 +1,36 @@
+.Title {
+  font-size: 80px;
+  margin: auto;
+  animation: fadeIn ease-in 1.5s
+}
+
+.Subtitle {
+  font-size: 40px;
+  animation: subFadeIn ease-in 4s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0};
+  100% {opacity: 1};
+}
+
+@keyframes subFadeIn {
+  0% {opacity: 0}
+  50% {opacity: 0}
+  100% {opacity: 1}
+}
+
+.Screen {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: #ccc;
+  padding: 15px;
+  box-sizing: border-box;
+}

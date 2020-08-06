@@ -1,0 +1,14 @@
+.Screen {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: #ccc;
+  color: black;
+  margin: 0;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.Projects {
+  margin-top: 55px;
+}
